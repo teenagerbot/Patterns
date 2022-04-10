@@ -1,0 +1,15 @@
+let y = new Patterns();
+let u = y.HTMLToText("jj kfd <hello>jghuh</hello>");
+document.querySelector("body").innerHTML = u;
+let a = y.email("fjhjh57djfhg@jg.bn kjfgih jdfiju5@hg.h", "email");
+document.querySelector("body").innerHTML += a;
+let t = y.URL("tu repl.it hgrth", "hr", "target");
+document.querySelector("body").innerHTML += t;
+let q = y.telegram("@kfkhgd jfghbiu https://t.me/jfdghd", "tg");
+document.querySelector("body").innerHTML += q;
+let qq = y.tel("gfhj 098-789-67-90", "tg");
+document.querySelector("body").innerHTML += qq;
+let qo = y.file("gfhj tj.gif", ";");
+document.querySelector("body").innerHTML += qo;
+let qr = y.image("gfhj tj.gif", "gif");
+document.querySelector("body").innerHTML += qr;
